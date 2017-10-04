@@ -29,4 +29,3 @@ while Plates >= 0:
     Plates -= 1
     Detergent -= 0.5
 
-
