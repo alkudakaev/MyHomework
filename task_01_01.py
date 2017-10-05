@@ -7,7 +7,6 @@
 # Выходные данные: целое число
 
 
-print('Введите площадь участка в сотках: \n')
 InputSquare = int(input())
 Crop = 375
 OutputSquare = InputSquare*100 // Crop
