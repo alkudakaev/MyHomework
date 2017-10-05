@@ -12,9 +12,8 @@
 # Входные данные: кол-во тарелок, кол-во средства
 # Выходные данные: описаны в задаче
 
-print('Сколько тарелочек?')
+
 Plates = int(input())
-print('А моющего средства?')
 Detergent = float(input())
 while Plates >= 0:
     if Detergent == 0 and Plates > 0:
