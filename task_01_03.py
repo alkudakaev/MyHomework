@@ -12,12 +12,12 @@
 # Входные данные: 4 5 4
 # Выходные данные: 4, 4, 5
 
-print('Вам необходимо ввести три числа, введите первое:')
-A = int( input())
-print('Введите второе:')
-B = int( input())
-print('Введите третье:')
-C = int( input())
+
+A = int(input())
+
+B = int(input())
+
+C = int(input())
 
 lst1 = [A, B, C]
 
@@ -40,5 +40,5 @@ elif lst1[0] < lst1[1]:
         lst1[1] = A
         lst1[2] = B
 
-print(lst1[0],lst1[1],lst1[2], sep=',')
+print(lst1[0], lst1[1], lst1[2], sep=',')
 
