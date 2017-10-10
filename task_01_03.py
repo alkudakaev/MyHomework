@@ -40,5 +40,5 @@ elif lst1[0] < lst1[1]:
         lst1[1] = A
         lst1[2] = B
 
-print(lst1[0], lst1[1], lst1[2], sep=',')
+print(lst1[0], lst1[1], lst1[2], sep=', ')
 
