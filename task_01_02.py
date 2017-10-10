@@ -20,7 +20,7 @@ while Plates >= 0:
         print('Моющее средство закончилось. Осталось', Plates, ' тарелок')
         break
     elif Detergent > 0 and Plates == 0:
-        print('Все тарелки вымыты. Осталось', Detergent, ' единиц моющего средства')
+        print('Все тарелки вымыты. Осталось', Detergent, ' ед.моющего средства')
         break
     elif Detergent == 0 and Plates == 0:
         print('Все тарелки вымыты, моющее средство закончилось')
