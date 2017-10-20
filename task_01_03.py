@@ -28,8 +28,8 @@ if lst1[0] > lst1[1]:
         lst1[2] = A
     else:
         lst1[0] = B
-        lst1[1] = C
-        lst1[2] = A
+        lst1[1] = A
+        lst1[2] = C
 elif lst1[0] < lst1[1]:
     if lst1[1] > lst1[2]:
         lst1[0] = A
