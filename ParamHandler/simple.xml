@@ -1,33 +1,2938 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<breakfast_menu>
-	<food>
-		<name>Бельгийские Вафли</name>
-		<price>$5.95</price>
-		<description>две известных Бельгийских Вафли с обилием настоящего кленового сиропа</description>
-		<calories>650</calories>
-	</food>
-	<food>
-		<name>Бельгийские Вафли с Земляникой</name>
-		<price>$7.95</price>
-		<description>легкие Бельгийские вафли с земляникой, покрытые взбитыми сливками</description>
-		<calories>900</calories>
-	</food>
-	<food>
-		<name>Бельгийские Вафли с Ягодами</name>
-		<price>$8.95</price>
-		<description>легкие Бельгийские вафли с различными свежими ягодами, покрытые взбитыми сливками</description>
-		<calories>900</calories>
-	</food>
-	<food>
-		<name>Французский Тост</name>
-		<price>$4.50</price>
-		<description>толстые куски, сделанные из кусочков домашнего хлеба из опары</description>
-		<calories>600</calories>
-	</food>
-	<food>
-		<name>Домашний Завтрак</name>
-		<price>$6.95</price>
-		<description>пара яиц, бекон или колбаса, тост, и наши всегда популярные картофельные оладьи</description>
-		<calories>950</calories>
-	</food>
-</breakfast_menu>
+<ExcelExportDescription>
+	<ObjectID>d49e9481-4085-11e7-ae07-5dd23c36a7b4</ObjectID>
+	<TableCode>1</TableCode>
+	<TableName>1</TableName>
+	<Processes>
+		<Process>f64c434f-4e74-4691-a99e-be1a71cff43e</Process>
+		<Process>0f9e16db-ebfc-4465-87c5-798d651ee3f3</Process>
+	</Processes>
+	<Togs>777</Togs>
+	<Level>FederalAndRegion</Level>
+	<FileName>1</FileName>
+	<Filter>
+		<Dimension code="s_tipisvodov" val="999"/>
+		<Dimension code="s_razrez" val="6"/>
+	</Filter>
+	<Worksheets>
+		<Worksheet>
+			<SheetName>1</SheetName>
+			<SheetNameMacro/>
+			<Enumerate/>
+			<Macros/>
+			<DataAreas>
+				<DataArea>
+					<Name>1</Name>
+					<Cell>B9</Cell>
+					<Head>
+						<SkipNums/>
+						<Columns>
+							<Column>
+								<Dimension code="s_knp" val="2141000010014_166"/>
+								<Dimension code="s_valuetype" val="4"/>
+							</Column>
+							<Column>
+								<Dimension code="s_knp" val="2141000020020_980"/>
+								<Dimension code="s_valuetype" val="4"/>
+							</Column>
+							<Column>
+								<Dimension code="s_knp" val="2141000020020_384"/>
+								<Dimension code="s_valuetype" val="4"/>
+							</Column>
+							<Column>
+								<Dimension code="s_knp" val="2141000010014_166"/>
+								<Dimension code="s_valuetype" val="10"/>
+							</Column>
+							<Column>
+								<Dimension code="s_knp" val="2141000020020_980"/>
+								<Dimension code="s_valuetype" val="10"/>
+							</Column>
+							<Column>
+								<Dimension code="s_knp" val="2141000020020_384"/>
+								<Dimension code="s_valuetype" val="10"/>
+							</Column>
+						</Columns>
+						<Macros/>
+					</Head>
+					<Sidehead>
+						<SkipNums/>
+						<Rows>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="004"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="004"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="008"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="008"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="012"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="012"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="016"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="016"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="020"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="020"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="024"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="024"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="028"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="028"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="031"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="031"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="032"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="032"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="036"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="036"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="040"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="040"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="044"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="044"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="048"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="048"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="050"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="050"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="051"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="051"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="052"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="052"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="056"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="056"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="060"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="060"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="064"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="064"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="068"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="068"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="070"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="070"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="072"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="072"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="074"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="074"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="076"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="076"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="084"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="084"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="086"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="086"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="090"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="090"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="092"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="092"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="096"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="096"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="100"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="100"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="104"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="104"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="108"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="108"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="112"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="112"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="116"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="116"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="120"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="120"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="124"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="124"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="132"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="132"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="136"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="136"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="140"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="140"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="144"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="144"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="148"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="148"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="152"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="152"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="156"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="156"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="158"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="158"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="162"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="162"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="166"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="166"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="170"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="170"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="174"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="174"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="175"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="175"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="178"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="178"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="180"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="180"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="184"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="184"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="188"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="188"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="191"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="191"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="192"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="192"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="196"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="196"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="203"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="203"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="204"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="204"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="208"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="208"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="212"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="212"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="214"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="214"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="218"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="218"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="222"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="222"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="226"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="226"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="231"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="231"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="232"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="232"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="233"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="233"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="234"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="234"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="238"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="238"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="242"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="242"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="246"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="246"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="248"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="248"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="250"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="250"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="254"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="254"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="258"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="258"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="260"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="260"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="262"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="262"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="266"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="266"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="268"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="268"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="270"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="270"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="275"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="275"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="276"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="276"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="288"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="288"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="292"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="296"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="296"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="300"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="300"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="304"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="304"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="308"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="308"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="312"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="312"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="316"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="316"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="320"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="320"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="324"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="324"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="328"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="328"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="332"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="332"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="334"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="334"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="336"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="336"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="340"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="340"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="344"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="344"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="348"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="348"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="352"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="352"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="356"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="356"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="360"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="360"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="364"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="364"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="368"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="368"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="372"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="372"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="376"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="376"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="380"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="380"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="384"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="384"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="388"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="388"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="392"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="392"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="398"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="398"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="400"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="400"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="404"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="404"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="408"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="408"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="410"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="410"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="414"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="414"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="417"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="417"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="418"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="418"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="422"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="422"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="426"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="426"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="428"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="428"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="430"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="430"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="434"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="434"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="438"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="438"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="440"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="440"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="442"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="442"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="446"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="446"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="450"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="450"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="454"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="454"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="458"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="458"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="462"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="462"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="466"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="466"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="470"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="470"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="474"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="474"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="478"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="478"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="480"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="480"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="484"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="484"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="492"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="492"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="496"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="496"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="498"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="498"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="499"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="499"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="500"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="500"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="504"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="504"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="508"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="508"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="512"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="512"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="516"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="516"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="520"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="520"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="524"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="524"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="528"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="528"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="531"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="531"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="533"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="533"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="534"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="534"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="535"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="535"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="540"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="540"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="548"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="548"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="554"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="554"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="558"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="558"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="562"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="562"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="566"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="566"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="570"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="570"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="574"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="574"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="578"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="578"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="580"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="580"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="581"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="581"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="583"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="583"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="584"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="584"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="585"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="585"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="586"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="586"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="591"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="591"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="598"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="598"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="600"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="600"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="604"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="604"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="608"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="608"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="612"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="612"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="616"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="616"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="620"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="620"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="624"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="624"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="626"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="626"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="630"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="630"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="634"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="634"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="638"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="638"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="642"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="642"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="646"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="646"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="652"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="652"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="654"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="654"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="659"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="659"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="660"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="660"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="662"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="662"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="663"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="663"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="666"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="666"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="670"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="670"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="674"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="674"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="678"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="678"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="682"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="682"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="686"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="686"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="688"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="688"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="690"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="690"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="694"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="694"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="702"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="702"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="703"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="703"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="704"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="704"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="705"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="705"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="706"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="706"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="710"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="710"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="716"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="716"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="724"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="724"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="728"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="728"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="729"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="729"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="732"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="732"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="740"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="740"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="744"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="744"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="748"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="748"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="752"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="752"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="756"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="756"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="760"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="760"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="762"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="762"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="764"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="764"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="768"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="768"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="772"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="772"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="776"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="776"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="780"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="780"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="784"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="784"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="788"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="788"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="792"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="792"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="795"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="795"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="796"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="796"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="798"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="798"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="800"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="800"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="804"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="804"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="807"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="807"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="818"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="818"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="826"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="826"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="831"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="831"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="832"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="832"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="833"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="833"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="834"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="834"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="840"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="840"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="850"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="850"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="854"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="854"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="858"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="858"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="860"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="860"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="862"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="862"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="876"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="876"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="882"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="882"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="887"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="887"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="894"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="894"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="895"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="895"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="896"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="896"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1900"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1900"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1901"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1901"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1902"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1902"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1903"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1903"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1904"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1904"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1905"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1905"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1907"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1907"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1908"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1908"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1912"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1912"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1913"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1913"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1917"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1917"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1921"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="1921"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="830"/>
+							</Row>
+							<Row>
+								<Dimension code="OKSM_strana_naznachenija" val="830"/>
+								<Dimension code="s_tnved2015" subset="1000006292"/>
+							</Row>
+						</Rows>
+						<Macros>
+							<Macro>
+								<Cell>A10</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A12</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A14</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A16</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A18</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A20</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A22</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A24</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A26</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A28</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A30</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A32</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A34</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A36</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A38</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A40</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A42</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A44</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A46</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A48</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A50</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A52</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A54</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A56</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A58</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A60</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A62</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A64</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A66</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A68</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A70</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A72</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A74</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A76</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A78</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A80</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A82</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A84</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A86</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A88</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A90</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A92</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A94</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A96</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A98</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A100</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A102</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A104</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A106</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A108</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A110</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A112</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A114</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A116</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A118</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A120</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A122</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A124</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A126</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A128</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A130</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A132</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A134</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A136</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A138</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A140</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A142</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A144</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A146</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A148</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A150</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A152</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A154</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A156</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A158</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A160</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A162</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A164</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A166</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A168</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A170</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A172</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A174</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A176</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A178</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A180</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A182</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A184</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A186</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A188</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A190</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A192</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A194</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A196</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A198</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A200</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A202</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A204</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A206</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A208</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A210</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A212</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A214</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A216</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A218</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A220</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A222</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A224</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A226</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A228</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A230</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A232</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A234</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A236</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A238</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A240</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A242</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A244</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A246</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A248</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A250</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A252</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A254</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A256</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A258</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A260</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A262</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A264</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A266</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A268</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A270</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A272</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A274</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A276</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A278</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A280</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A282</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A284</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A286</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A288</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A290</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A292</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A294</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A296</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A298</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A300</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A302</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A304</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A306</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A308</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A310</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A312</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A314</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A316</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A318</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A320</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A322</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A324</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A326</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A328</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A330</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A332</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A334</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A336</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A338</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A340</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A342</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A344</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A346</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A348</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A350</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A352</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A354</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A356</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A358</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A360</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A362</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A364</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A366</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A368</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A370</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A372</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A374</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A376</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A378</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A380</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A382</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A384</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A386</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A388</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A390</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A392</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A394</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A396</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A398</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A400</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A402</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A404</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A406</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A408</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A410</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A412</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A414</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A416</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A418</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A420</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A422</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A424</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A426</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A428</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A430</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A432</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A434</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A436</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A438</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A440</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A442</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A444</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A446</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A448</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A450</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A452</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A454</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A456</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A458</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A460</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A462</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A464</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A466</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A468</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A470</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A472</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A474</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A476</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A478</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A480</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A482</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A484</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A486</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A488</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A490</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A492</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A494</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A496</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A498</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A500</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A502</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A504</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A506</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A508</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A510</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A512</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A514</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A516</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A518</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A520</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A522</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A524</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A526</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A528</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+							<Macro>
+								<Cell>A530</Cell>
+								<Text>$Code - $Name</Text>
+							</Macro>
+						</Macros>
+					</Sidehead>
+				</DataArea>
+			</DataAreas>
+		</Worksheet>
+	</Worksheets>
+</ExcelExportDescription>
