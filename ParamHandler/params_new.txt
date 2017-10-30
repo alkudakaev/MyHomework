@@ -1,0 +1,16 @@
+ObjectID : d49e9481-4085-11e7-ae07-5dd23c36a7b4
+Level : FederalAndRegion
+Filter/Dimension 0 : {'code': 's_tipisvodov', 'val': '999'}
+Filter/Dimension 1 : {'code': 's_razrez', 'val': '6'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 2 : {'code': 's_knp', 'val': '2141000010014_166'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 3 : {'code': 's_valuetype', 'val': '4'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 4 : {'code': 's_knp', 'val': '2141000020020_980'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 5 : {'code': 's_valuetype', 'val': '4'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 6 : {'code': 's_knp', 'val': '2141000020020_384'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 7 : {'code': 's_valuetype', 'val': '4'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 8 : {'code': 's_knp', 'val': '2141000010014_166'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 9 : {'code': 's_valuetype', 'val': '10'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 10 : {'code': 's_knp', 'val': '2141000020020_980'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 11 : {'code': 's_valuetype', 'val': '10'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 12 : {'code': 's_knp', 'val': '2141000020020_384'}
+Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension 13 : {'code': 's_valuetype', 'val': '10'}
