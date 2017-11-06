@@ -3,16 +3,26 @@ import os
 import xml.etree.ElementTree as ET
 
 
+class ParamHandlerException(Exception):
+ pass
 
-# абстрактный класс
+
 class ParamHandler(metaclass=ABCMeta):
     def __init__(self, source):
         self.source = source
         self.params = {}
+
     def add_param(self, key, value):
         self.params[key] = value
+
+    def insert_param(self,value):
+        self.params=value
+
     def get_all_params(self):
         return self.params
+
+    def get_source(self):
+        return str(self.source)
 
     @abstractmethod
     def read(self):
@@ -22,67 +32,75 @@ class ParamHandler(metaclass=ABCMeta):
     def write(self):
         pass
 
-    @staticmethod
-    def get_instance(source):
-        _, ext = os.path.splitext(str(source).lower())
-        if ext == '.xml':
-            return XmlParamHandler(source)
-        return TextParamHandler(source)
-
     types = {}
 
+
     @classmethod
-    def add_type(cls, name, klass):
+    def add_type(cls, name, clas):
         if not name:
             raise ParamHandlerException('Type must have a name!')
 
-        if not issubclass(klass, ParamHandler):
-            raise ParamHandlerException(
-            'Class "{}" is not ParamHandler!'.format(klass)
-             )
-        cls.types[name] = klass
+        if not issubclass(clas, ParamHandler):
+            raise ParamHandlerException('Class "{}" is not ParamHandler!'.format(clas))
+        cls.types[name] = clas
 
     @classmethod
     def get_instance(cls, source, *args, **kwargs):
 
-        # Шаблон "Factory Method"
+         # Шаблон "Factory Method"
         _, ext = os.path.splitext(str(source).lower())
         ext = ext.lstrip('.')
-        klass = cls.types.get(ext)
-        if klass is None:
-          raise ParamHandlerException(
-            'Type "{}" not found!'.format(ext)
-            )
-        return klass(source, *args, **kwargs)
+        clas = cls.types.get(ext)
+        if clas is None:
+            raise ParamHandlerException('Type "{}" not found!'.format(ext))
+
+        return cls(source, *args, **kwargs)
 
 
-class TextParamHandler(ParamHandler):
-    def read(self):
-        pass
-
-    def write(self):
-        f = open('params.txt', 'w')
-        for keys, values in self.params.items():
-            f.write(str(keys) + ' : ' + str(values) + '\n')
 
 class XmlParamHandler(ParamHandler):
-    def read(self):
+    def __init__(self, source):
+        super().__init__(source)
+        self.shit_for_search = ['ObjectID', # будем дополнять по аналогии с types из ParamHandler
+                       'Process',
+                       'Level',
+                       'Filter/Dimension',
+                       'Worksheets/Worksheet/DataAreas/DataArea/Head/Columns/Column/Dimension']
+
+    def read_params(self):
         params = {}
         _, ext = os.path.split(str(self.source).lower())
         ext = ext[-3:]  # приводим к "xml"
         if ext == 'xml':
             tree = ET.ElementTree(file=self.source)
             root = tree.getroot()
-            dimensions = root.findall('Dimension')  # Из тегов Dimension будем тащить атрибуты
             i = 0
-            for dim in dimensions:  # Упарываемся с XML, будет уродливо
-                # Добавляю в словарь элементы XML, атрибуты от Dimension
-                params['Присутствует следующий разрез, внутренний индентификатор:' + str(i)] = dimensions[i].attrib
-                i += 1
+            for element in self.shit_for_search:
+                for root_part in root.findall(element):
+                    if not element.find('/') > 0: # если есть в элементе слеш, то искать надо по атрибуту
+                        # print('{}: {}'.format(root_part.tag, root_part.text))
+                        params[root_part.tag] = root_part.text
+                    else:
+                        # print('{}:{}'.format(element, root_part.attrib))
+                        params[element + ' ' + str(i)] = root_part.attrib
+                        i += 1
         else:
             raise TypeError(
                 'Type "{}" is not supported for reading'.format(ext))
 
         return params
+
+    def add_element_for_search(self, string):
+        self.shit_for_search.append(string)
+
+    def read(self):
+        with open(self.get_source(), 'r') as f:
+            a = self.read_params()
+            self.insert_param(a)
+
     def write(self):
-        pass
+        with open(self.get_source(), 'r') as f:
+            for keys, values in self.params.items():
+                f.write(str(keys) + ' : ' + str(values) + '\n')
+
+
